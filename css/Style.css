@@ -1,12 +1,19 @@
 * {
     box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
     font-family: Inter;
 }
 
 a {
     text-decoration: none;
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 /* Navbar */
@@ -84,9 +91,7 @@ a {
     color: #FFBB1C;
 }
 
-.cursor {
-    cursor: pointer;
-}
+
 
 /* section 1 */
 .container {
@@ -103,7 +108,6 @@ a {
 
 .itemContent {
     line-height: 2rem;
-
 }
 
 .bgNumber {
@@ -365,4 +369,94 @@ a {
 .footerLine {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+
+    .navContent,
+    .listBox,
+    .item,
+    .cardContent,
+    .cardContent1,
+    .footerItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+    }
+
+    .call-us {
+        text-align: center;
+    }
+
+    #home {
+        background-image: url("../images/solar.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+
+    .homePara {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .textContent {
+        max-width: 100%;
+    }
+
+    .textContent h3 {
+        font-size: 25px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .repairs {
+        width: 95%;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .containerRow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3R {
+        display: none;
+    }
+
+    .cardRow {
+        padding: 20px;
+        border-radius: 3%;
+    }
+
+    .cardItem {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .cardItem {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .card1,
+    .card2 {
+        width: 100%;
+    }
+
+    .paraStyle {
+        width: 100%;
+    }
+
+    .cardContent {
+        margin: auto;
+        margin-bottom: 1rem;
+    }
 }
