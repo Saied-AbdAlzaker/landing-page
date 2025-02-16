@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Inter;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+.navContent {
+    background-color: #0B9586;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navCntent {
+    margin: 0px 20px;
+}
+
+.listStyle {
+    list-style: none;
+    color: #fff;
+}
+
+.listStyleInner {
+    color: #fff;
+}
+
+.call-us {
+    text-align: end;
+}
+
+/* Home */
+#home {
+    background-image: url("../images/solar.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.homeContent {
+    color: #fff;
+    padding: 20% 0px 20% 10%;
+}
+
+.homePara {
+    width: 50%;
+    margin: 20px 0px;
+}
+
+.btnHome {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btnPrimary {
+    background-color: #3CAB90;
+    color: #fff;
+}
+
+.btnSeconary {
+    background-color: #FFBB1C;
+}
+
+.btnPrimary:hover {
+    background-color: #fff;
+    color: #3CAB90;
+}
+
+.btnSeconary:hover {
+    background-color: #000;
+    color: #FFBB1C;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* section 1 */
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.itemContent {
+    line-height: 2rem;
+
+}
+
+.bgNumber {
+    color: #84BD3A;
+    margin-right: 10px;
+}
+
+.paraMuted {
+    color: #475467;
+    margin: 10px 0px;
+    line-height: 1.5rem;
+}
+
+.textContent {
+    max-width: 50%;
+}
+
+.textContent h3 {
+    font-size: 45px;
+}
+
+.bgSection1 {
+    background-image: url("../images//bgGreen.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.sectionContent {
+    color: #fff;
+    padding: 10% 0px 15% 15%;
+}
+
+.sectionContent h5 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.paraSection1 {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+/* section 2 */
+#shop {
+    margin-bottom: 40px;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2 h3 {
+    font-size: 45px;
+}
+
+.card {
+    width: 30%;
+}
+
+.card a,
+.cardRow a {
+    color: #3CAB90;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.repairsContent {
+    background-image: url("../images/solar-panels.png");
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repairs {
+    background-color: rgba(0, 0, 0, 0.57);
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.repairsItems h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* section 3 */
+.bgSection3 {
+    background-color: rgba(255, 187, 28, 0.1);
+    padding: 20px 20px 100px 20px;
+}
+
+.containerRow {
+    display: grid;
+    grid-template-columns: 200px 300px 300px 300px 200px;
+    grid-template-rows: 100px 100px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.containerRow h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cardRow {
+    background-color: rgba(60, 171, 144, 0.1);
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.cardRow h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cardRow p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.containerRowSecond {
+    margin-top: 2rem;
+}
+
+/* section 4 */
+.cardItem {
+    border: 1px solid #3CAB90;
+    border-radius: 5%;
+    width: 30%;
+    padding: 20px 20px 50px 20px;
+    background-color: rgba(60, 171, 144, 0.05);
+}
+
+.cardItem .imgStyle,
+.cardItem h3 {
+    margin-bottom: 20px;
+}
+
+/* section 5 */
+.card1 {
+    width: 40%;
+    margin-top: 2rem;
+    padding: 4rem;
+}
+
+.card1 img {
+    margin-bottom: 1.5rem;
+    width: 15%;
+}
+
+.card1 h3 {
+    margin-bottom: 1rem;
+    font-size: 40px;
+}
+
+.card2 {
+    background-color: #3CAB900F;
+    width: 60%;
+    padding: 2rem;
+    border-radius: 3%;
+}
+
+.paraStyle {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    width: 50%;
+    font-size: 20px;
+}
+
+.cardContent1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardContent1 img {
+    margin-right: 1rem;
+}
+
+.arrowCard img {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.arrowRight {
+    margin-left: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #283646;
+    padding: 3rem;
+}
+
+.footerItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footerImg {
+    margin-bottom: 10px;
+}
+
+.inputSearch {
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    background-color: #B3BDC7;
+}
+
+.inputSearch:hover {
+    border: 1px solid #FFBB1C;
+}
+
+.footerContainer {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.footerItem2 {
+    position: relative;
+}
+
+.btnFooter {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.horizontalLine {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footerMuted {
+    color: #92989F;
+    font-size: 16px;
+}
+
+.footerLine {
+    margin-left: 20px;
+    margin-right: 20px;
+}
